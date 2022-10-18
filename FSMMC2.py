@@ -1,29 +1,61 @@
 libreria=[
     {
-        'nombre':'La novela más larga',
-        'género':'novela',
-        'autor' :'Elif'
+        'Estado Actual':0,
+        'Ent A':0,
+        'Ent B':0,
+        'Salida':0,
+        'Estado siguiente':0,
     },
     {
-        'nombre':'Filosofía del electrón',
-        'género':[
-            {
-                'ciencias':{
-                    'física':'partículas'
-                }
-            },
-            'Filosofía'
-        ],
-        'autor' : [
-            {
-                'Instituto de altas energías':[
-                    'Gonzalo Rodríguez',
-                    'Rodrigo González'
-                ],
-                'Centro Filosófico del Sur': 'Dolores de Rodríguez'
-            }
-        ]
-    }
+        'Estado Actual':0,
+        'Ent A':1,
+        'Ent B':0,
+        'Salida':1,
+        'Estado siguiente':0,
+    },
+    {
+        'Estado Actual':0,
+        'Ent A':0,
+        'Ent B':1,
+        'Salida':1,
+        'Estado siguiente':0,
+    },
+    {
+        'Estado Actual':0,
+        'Ent A':1,
+        'Ent B':1,
+        'Salida':0,
+        'Estado siguiente':1,
+    },
+    {
+        'Estado Actual':1,
+        'Ent A':1,
+        'Ent B':0,
+        'Salida':0,
+        'Estado siguiente':1,
+    },
+    {
+        'Estado Actual':1,
+        'Ent A':0,
+        'Ent B':1,
+        'Salida':0,
+        'Estado siguiente':1,
+    },
+    {
+        'Estado Actual':1,
+        'Ent A':1,
+        'Ent B':1,
+        'Salida':1,
+        'Estado siguiente':1,
+    },
+    {
+        'Estado Actual':1,
+        'Ent A':0,
+        'Ent B':0,
+        'Salida':1,
+        'Estado siguiente':0,
+    },
+    
 ]
 
 
